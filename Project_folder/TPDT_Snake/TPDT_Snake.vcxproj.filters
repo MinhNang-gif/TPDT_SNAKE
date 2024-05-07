@@ -21,9 +21,15 @@
     <ClCompile Include="dohoa.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="dieukhien.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dohoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dieukhien.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
