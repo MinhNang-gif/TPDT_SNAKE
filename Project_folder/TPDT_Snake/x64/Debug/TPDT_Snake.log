@@ -1,2 +1,2 @@
-﻿  TPDT_Snake.cpp
-  TPDT_Snake.vcxproj -> E:\UIT\HK2\1.KNNN\TPDT_SNAKE\Project_folder\x64\Debug\TPDT_Snake.exe
+﻿  dohoa.cpp
+E:\UIT\HK2\1.KNNN\TPDT_SNAKE\Project_folder\TPDT_Snake\dohoa.h(7,10): fatal  error C1083: Cannot open include file: 'snake.h': No such file or directory
