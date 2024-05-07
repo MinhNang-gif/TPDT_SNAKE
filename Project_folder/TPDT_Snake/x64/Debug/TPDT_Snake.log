@@ -1,2 +1,3 @@
-﻿  dohoa.cpp
-E:\UIT\HK2\1.KNNN\TPDT_SNAKE\Project_folder\TPDT_Snake\dohoa.h(7,10): fatal  error C1083: Cannot open include file: 'snake.h': No such file or directory
+﻿MSVCRTD.lib(new_mode.obj) : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
+MSVCRTD.lib(initializers.obj) : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
+LINK : fatal error LNK1102: out of memory
