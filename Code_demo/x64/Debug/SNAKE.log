@@ -1,5 +1,0 @@
-﻿  SNAKE.cpp
-E:\UIT\HK2\SNAKE\SNAKE\mylib.h(26,26): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
-E:\UIT\HK2\SNAKE\SNAKE\mylib.h(26,29): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
-E:\UIT\HK2\SNAKE\SNAKE\SNAKE.cpp(40,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  SNAKE.vcxproj -> E:\UIT\HK2\SNAKE\SNAKE\x64\Debug\SNAKE.exe
