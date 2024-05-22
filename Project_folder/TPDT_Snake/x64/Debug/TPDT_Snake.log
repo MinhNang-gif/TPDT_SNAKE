@@ -1,3 +1,0 @@
-﻿MSVCRTD.lib(new_mode.obj) : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
-MSVCRTD.lib(initializers.obj) : warning LNK4020: a type record in '' is corrupted; some symbols and types may not be accessible from the debugger
-LINK : fatal error LNK1102: out of memory
