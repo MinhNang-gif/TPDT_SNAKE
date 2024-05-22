@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\github\\TPDT_SNAKE\\Project_folder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\TPDT_SNAKE.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|solutionrelative:TPDT_SNAKE\\TPDT_SNAKE.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TPDT_SNAKE.cpp",
+              "DocumentMoniker": "D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\TPDT_SNAKE.cpp",
+              "RelativeDocumentMoniker": "TPDT_SNAKE\\TPDT_SNAKE.cpp",
+              "ToolTip": "D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\TPDT_SNAKE.cpp",
+              "RelativeToolTip": "TPDT_SNAKE\\TPDT_SNAKE.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-22T08:41:36.227Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
