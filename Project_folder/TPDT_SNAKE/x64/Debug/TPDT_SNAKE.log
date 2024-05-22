@@ -1,0 +1,11 @@
+﻿  Snake.cpp
+D:\Kỹ lăng nghề nghiệp\TPDT_SNAKE\Project_folder\TPDT_SNAKE\Snake.h(14,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Snake.cpp')
+  
+D:\Kỹ lăng nghề nghiệp\TPDT_SNAKE\Project_folder\TPDT_SNAKE\Snake.h(15,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Snake.cpp')
+  
+  TPDT_SNAKE.cpp
+  Generating Code...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\Kỹ lăng nghề nghiệp\TPDT_SNAKE\Project_folder\x64\Debug\TPDT_SNAKE.exe : fatal error LNK1120: 1 unresolved externals
