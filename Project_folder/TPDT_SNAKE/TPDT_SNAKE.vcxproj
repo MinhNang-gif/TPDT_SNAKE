@@ -134,11 +134,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dieukhien.cpp" />
+    <ClCompile Include="dohoa.cpp" />
     <ClCompile Include="Snake.cpp" />
     <ClCompile Include="TPDT_SNAKE.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dieukhien.h" />
+    <ClInclude Include="dohoa.h" />
     <ClInclude Include="Snake.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
