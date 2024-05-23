@@ -1,8 +1,4 @@
-﻿  dohoa.cpp
+﻿  TPDT_SNAKE.cpp
 D:\KNNN\TPDT_SNAKE\Project_folder\TPDT_SNAKE\Snake.h(14,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
 D:\KNNN\TPDT_SNAKE\Project_folder\TPDT_SNAKE\Snake.h(15,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-D:\KNNN\TPDT_SNAKE\Project_folder\TPDT_SNAKE\dohoa.cpp(19,9): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-D:\KNNN\TPDT_SNAKE\Project_folder\TPDT_SNAKE\dohoa.cpp(18,33): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-D:\KNNN\TPDT_SNAKE\Project_folder\TPDT_SNAKE\dohoa.cpp(49,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-D:\KNNN\TPDT_SNAKE\Project_folder\TPDT_SNAKE\dohoa.cpp(50,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   TPDT_SNAKE.vcxproj -> D:\KNNN\TPDT_SNAKE\Project_folder\x64\Debug\TPDT_SNAKE.exe
