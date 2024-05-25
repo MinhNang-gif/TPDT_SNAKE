@@ -75,3 +75,67 @@ void dohoa::Dohoa(Snake const snake, SDL_Point const& food) {
 
 }
 
+SDL_Texture* dohoa::LoadImage(const std::string& file) {
+    SDL_Surface* surface = IMG_Load(file.c_str());
+    if (!surface) {
+        std::cerr << "Failed to load image: " << file << "\n";
+        std::cerr << "IMG Error: " << IMG_GetError() << "\n";
+        return nullptr;
+    }
+
+    SDL_Texture* texture = SDL_CreateTextureFromSurface(sdl_renderer, surface);
+    if (!texture) {
+        std::cerr << "Failed to create texture from surface.\n";
+        std::cerr << "SDL Error: " << SDL_GetError() << "\n";
+    }
+
+    SDL_FreeSurface(surface);
+    return texture;
+}
+
+bool dohoa::ShowPlayButton() {
+    SDL_Rect background_rect;
+    background_rect.x = 0;
+    background_rect.y = 0;
+    background_rect.w = screen_width;
+    background_rect.h = screen_height;
+
+    SDL_Texture* background_image = LoadImage("nengame.png");
+
+    if (background_image) {
+        SDL_RenderCopy(sdl_renderer, background_image, NULL, &background_rect);
+        SDL_DestroyTexture(background_image);
+    }
+
+    SDL_Rect play_button;
+    play_button.x = screen_width / 2 - 43;
+    play_button.y = screen_height / 2 + 33;
+    play_button.w = 95;
+    play_button.h = 95;
+    SDL_SetRenderDrawColor(sdl_renderer, 0x00, 0x7A, 0xCC, 0xFF);
+    SDL_RenderFillRect(sdl_renderer, &play_button);
+    SDL_Texture* play_image = LoadImage("play22.png");
+    if (play_image) {
+        SDL_RenderCopy(sdl_renderer, play_image, nullptr, &play_button);
+        SDL_DestroyTexture(play_image);
+    }
+
+    SDL_RenderPresent(sdl_renderer);
+
+    SDL_Event e;
+    while (SDL_WaitEvent(&e) != 0) {
+        if (e.type == SDL_QUIT) {
+            return false;
+        }
+        else if (e.type == SDL_MOUSEBUTTONDOWN) {
+            int x, y;
+            SDL_GetMouseState(&x, &y);
+            if (x >= play_button.x && x <= play_button.x + play_button.w &&
+                y >= play_button.y && y <= play_button.y + play_button.h) {
+                return true;
+            }
+        }
+    }
+
+    return false;
+}

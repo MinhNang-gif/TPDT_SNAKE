@@ -14,7 +14,7 @@ int main() {
 
 	dohoa renderer(kScreenWidth, kScreenHeight, kGridWidth, kGridHeight);
 	dieukhien controller;
-	if (/*renderer.ShowPlayButton()*/ 1) {
+	if (renderer.ShowPlayButton()) {
 		float speed = 0.2f;
 		game game(kGridWidth, kGridHeight, speed);
 		game.Run(controller, renderer, kMsPerFrame);
@@ -22,5 +22,7 @@ int main() {
 		std::cout << "DIEM: " << game.GetScore() << "\n";
 		std::cout << "Kich thuoc: " << game.GetSize() << "\n";
 	}
+	return 0;
 }
+
 

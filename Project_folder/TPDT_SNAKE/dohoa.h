@@ -13,6 +13,9 @@ public:
     ~dohoa();
     void ClearScreen();
     void Dohoa(Snake const snake, SDL_Point const& food);
+
+    SDL_Texture* LoadImage(const std::string& file);
+    bool ShowPlayButton();
 private:
     SDL_Window* sdl_window;
     SDL_Renderer* sdl_renderer;
