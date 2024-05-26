@@ -17,6 +17,8 @@ public:
     SDL_Texture* LoadImage(const std::string& file);
     bool ShowPlayButton();
     float ShowSpeedOptions();
+    void GameOverScreen();
+    bool ShowGameOverOptions();
 private:
     SDL_Window* sdl_window;
     SDL_Renderer* sdl_renderer;

@@ -1,1 +1,15 @@
-﻿  TPDT_SNAKE.vcxproj -> C:\Users\phuon\OneDrive\Tài liệu\GitHub\TPDT_SNAKE\Project_folder\x64\Debug\TPDT_SNAKE.exe
+﻿  game.cpp
+D:\github\TPDT_SNAKE\Project_folder\TPDT_SNAKE\Snake.h(14,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'game.cpp')
+  
+D:\github\TPDT_SNAKE\Project_folder\TPDT_SNAKE\Snake.h(15,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'game.cpp')
+  
+D:\github\TPDT_SNAKE\Project_folder\TPDT_SNAKE\game.cpp(9,25): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\github\TPDT_SNAKE\Project_folder\TPDT_SNAKE\game.cpp(9,13): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\github\TPDT_SNAKE\Project_folder\TPDT_SNAKE\game.cpp(35,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\github\TPDT_SNAKE\Project_folder\TPDT_SNAKE\game.cpp(35,31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\github\TPDT_SNAKE\Project_folder\TPDT_SNAKE\game.cpp(52,45): warning C4267: 'argument': conversion from 'size_t' to 'Uint32', possible loss of data
+  TPDT_SNAKE.vcxproj -> D:\github\TPDT_SNAKE\Project_folder\x64\Debug\TPDT_SNAKE.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

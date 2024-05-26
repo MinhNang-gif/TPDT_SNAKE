@@ -191,3 +191,61 @@ float dohoa::ShowSpeedOptions() {
 
     return 0.0f;
 }
+bool dohoa::ShowGameOverOptions() {
+    SDL_Rect play_again_button{ screen_width / 2 - 115, screen_height * 3 / 4 - 200, 100, 100 };
+    SDL_Rect quit_button{ screen_width / 2 + 15, screen_height * 3 / 4 - 200, 100, 100 };
+
+    SDL_Texture* play_again_image = LoadImage("playover.png");
+    SDL_Texture* quit_image = LoadImage("quit2.png");
+
+    SDL_RenderCopy(sdl_renderer, play_again_image, NULL, &play_again_button);
+    SDL_RenderCopy(sdl_renderer, quit_image, NULL, &quit_button);
+
+    SDL_DestroyTexture(play_again_image);
+    SDL_DestroyTexture(quit_image);
+
+    SDL_RenderPresent(sdl_renderer);
+
+    SDL_Event e;
+    while (SDL_WaitEvent(&e) != 0) {
+        if (e.type == SDL_QUIT) {
+            return false;
+        }
+        else if (e.type == SDL_MOUSEBUTTONDOWN) {
+            int x, y;
+            SDL_GetMouseState(&x, &y);
+            if (x >= play_again_button.x && x <= play_again_button.x + play_again_button.w &&
+                y >= play_again_button.y && y <= play_again_button.y + play_again_button.h) {
+                return true;
+            }
+            else if (x >= quit_button.x && x <= quit_button.x + quit_button.w &&
+                y >= quit_button.y && y <= quit_button.y + quit_button.h) {
+                return false;
+            }
+        }
+    }
+    return false;
+}
+void dohoa::GameOverScreen() {
+    SDL_SetRenderDrawColor(sdl_renderer, 0x00, 0x00, 0x00, 0xFF);
+    SDL_RenderClear(sdl_renderer);
+    SDL_Rect game_over_rect;
+    game_over_rect.x = screen_width / 2 - 100;
+    game_over_rect.y = screen_height / 2 - 50;
+    game_over_rect.w = 200;
+    game_over_rect.h = 100;
+
+    SDL_Surface* button_surface = IMG_Load("gameo.png");
+    if (!button_surface) {
+        std::cerr << "Failed to load image: " << IMG_GetError() << "\n";
+        return;
+    }
+    SDL_Texture* button_texture = SDL_CreateTextureFromSurface(sdl_renderer, button_surface);
+
+    SDL_RenderCopy(sdl_renderer, button_texture, NULL, &game_over_rect);
+
+    SDL_FreeSurface(button_surface);
+    SDL_DestroyTexture(button_texture);
+
+    SDL_RenderPresent(sdl_renderer);
+}
