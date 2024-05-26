@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\github\\TPDT_SNAKE\\Project_folder\\",
+  "WorkspaceRootPath": "D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|solutionrelative:TPDT_SNAKE\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dohoa.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dohoa.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|solutionrelative:TPDT_SNAKE\\dohoa.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dohoa.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dohoa.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|solutionrelative:TPDT_SNAKE\\dohoa.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|solutionrelative:TPDT_SNAKE\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\TPDT_SNAKE.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\TPDT_SNAKE.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|solutionrelative:TPDT_SNAKE\\TPDT_SNAKE.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dieukhien.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dieukhien.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|solutionrelative:TPDT_SNAKE\\dieukhien.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dieukhien.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dieukhien.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{139E5414-1D0C-498A-A9DF-821A2039FCEE}|TPDT_SNAKE\\TPDT_SNAKE.vcxproj|solutionrelative:TPDT_SNAKE\\dieukhien.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -38,21 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "game.cpp",
-              "DocumentMoniker": "D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\game.cpp",
+              "DocumentMoniker": "D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\game.cpp",
               "RelativeDocumentMoniker": "TPDT_SNAKE\\game.cpp",
-              "ToolTip": "D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\game.cpp",
+              "ToolTip": "D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\game.cpp",
               "RelativeToolTip": "TPDT_SNAKE\\game.cpp",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAADoAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-23T16:50:38.478Z",
               "EditorCaption": ""
@@ -61,9 +57,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "game.h",
-              "DocumentMoniker": "D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\game.h",
+              "DocumentMoniker": "D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\game.h",
               "RelativeDocumentMoniker": "TPDT_SNAKE\\game.h",
-              "ToolTip": "D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\game.h",
+              "ToolTip": "D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\game.h",
               "RelativeToolTip": "TPDT_SNAKE\\game.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -73,11 +69,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "dohoa.cpp",
-              "DocumentMoniker": "D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dohoa.cpp",
+              "DocumentMoniker": "D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dohoa.cpp",
               "RelativeDocumentMoniker": "TPDT_SNAKE\\dohoa.cpp",
-              "ToolTip": "D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dohoa.cpp",
+              "ToolTip": "D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dohoa.cpp",
               "RelativeToolTip": "TPDT_SNAKE\\dohoa.cpp",
-              "ViewState": "AQIAAL4AAAAAAAAAAAAiwPoAAAABAAAA",
+              "ViewState": "AQIAAOUAAAAAAAAAAAAiwPQAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-23T16:44:12.192Z",
               "EditorCaption": ""
@@ -86,11 +82,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "dohoa.h",
-              "DocumentMoniker": "D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dohoa.h",
+              "DocumentMoniker": "D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dohoa.h",
               "RelativeDocumentMoniker": "TPDT_SNAKE\\dohoa.h",
-              "ToolTip": "D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dohoa.h",
+              "ToolTip": "D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dohoa.h",
               "RelativeToolTip": "TPDT_SNAKE\\dohoa.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-23T16:44:12.391Z",
               "EditorCaption": ""
@@ -99,9 +95,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "TPDT_SNAKE.cpp",
-              "DocumentMoniker": "D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\TPDT_SNAKE.cpp",
+              "DocumentMoniker": "D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\TPDT_SNAKE.cpp",
               "RelativeDocumentMoniker": "TPDT_SNAKE\\TPDT_SNAKE.cpp",
-              "ToolTip": "D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\TPDT_SNAKE.cpp",
+              "ToolTip": "D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\TPDT_SNAKE.cpp",
               "RelativeToolTip": "TPDT_SNAKE\\TPDT_SNAKE.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -111,9 +107,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "dieukhien.cpp",
-              "DocumentMoniker": "D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dieukhien.cpp",
+              "DocumentMoniker": "D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dieukhien.cpp",
               "RelativeDocumentMoniker": "TPDT_SNAKE\\dieukhien.cpp",
-              "ToolTip": "D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dieukhien.cpp",
+              "ToolTip": "D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dieukhien.cpp",
               "RelativeToolTip": "TPDT_SNAKE\\dieukhien.cpp",
               "ViewState": "AQIAACQAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -123,9 +119,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "dieukhien.h",
-              "DocumentMoniker": "D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dieukhien.h",
+              "DocumentMoniker": "D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dieukhien.h",
               "RelativeDocumentMoniker": "TPDT_SNAKE\\dieukhien.h",
-              "ToolTip": "D:\\github\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dieukhien.h",
+              "ToolTip": "D:\\K\u1EF9 l\u0103ng ngh\u1EC1 nghi\u1EC7p\\TPDT_SNAKE\\Project_folder\\TPDT_SNAKE\\dieukhien.h",
               "RelativeToolTip": "TPDT_SNAKE\\dieukhien.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",

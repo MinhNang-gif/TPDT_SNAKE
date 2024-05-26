@@ -44,7 +44,7 @@ void game::Run(dieukhien const& controller, dohoa& renderer, std::size_t target_
         frame_count++;
         frame_duration = frame_end - frame_start;
         if (frame_end - title_timestamp >= 1000) {
-            //renderer.UpdateWindowTitle(score, frame_count);
+            renderer.UpdateWindowTitle(score, frame_count);
             frame_count = 0;
             title_timestamp = frame_end;
         }
