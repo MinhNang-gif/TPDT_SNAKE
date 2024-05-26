@@ -15,7 +15,7 @@ int main() {
 	dohoa renderer(kScreenWidth, kScreenHeight, kGridWidth, kGridHeight);
 	dieukhien controller;
 	if (renderer.ShowPlayButton()) {
-		float speed = 0.2f;
+		float speed = renderer.ShowSpeedOptions();
 		game game(kGridWidth, kGridHeight, speed);
 		game.Run(controller, renderer, kMsPerFrame);
 		std::cout << "Game da hoan thanh!\n";

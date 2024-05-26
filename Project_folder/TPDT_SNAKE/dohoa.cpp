@@ -139,3 +139,55 @@ bool dohoa::ShowPlayButton() {
 
     return false;
 }
+float dohoa::ShowSpeedOptions() {
+
+    SDL_SetRenderDrawColor(sdl_renderer, 0x00, 0x00, 0x00, 0xFF);
+    SDL_RenderClear(sdl_renderer);
+
+    SDL_Texture* background_image = LoadImage("menu.png");
+    SDL_Rect background_rect{ 0, 0, screen_width, screen_height };
+    SDL_RenderCopy(sdl_renderer, background_image, NULL, &background_rect);
+
+    SDL_Rect speed_option1{ screen_width / 2 + 122, screen_height / 2 - 107, 101, 101 };
+    SDL_Rect speed_option2{ screen_width / 2 - 49, screen_height / 2 - 107, 101, 101 };
+    SDL_Rect speed_option3{ screen_width / 2 - 221, screen_height / 2 - 107, 101, 101 };
+
+    SDL_Texture* hard_image = LoadImage("hard2.png");
+    SDL_Texture* medium_image = LoadImage("medium2.png");
+    SDL_Texture* easy_image = LoadImage("eze2.png");
+
+    SDL_RenderCopy(sdl_renderer, hard_image, NULL, &speed_option1);
+    SDL_RenderCopy(sdl_renderer, medium_image, NULL, &speed_option2);
+    SDL_RenderCopy(sdl_renderer, easy_image, NULL, &speed_option3);
+
+    SDL_DestroyTexture(hard_image);
+    SDL_DestroyTexture(medium_image);
+    SDL_DestroyTexture(easy_image);
+
+    SDL_RenderPresent(sdl_renderer);
+
+    SDL_Event e;
+    while (SDL_WaitEvent(&e) != 0) {
+        if (e.type == SDL_QUIT) {
+            return 0.0f;
+        }
+        else if (e.type == SDL_MOUSEBUTTONDOWN) {
+            int x, y;
+            SDL_GetMouseState(&x, &y);
+            if (x >= speed_option1.x && x <= speed_option1.x + speed_option1.w &&
+                y >= speed_option1.y && y <= speed_option1.y + speed_option1.h) {
+                return 0.4f;
+            }
+            else if (x >= speed_option2.x && x <= speed_option2.x + speed_option2.w &&
+                y >= speed_option2.y && y <= speed_option2.y + speed_option2.h) {
+                return 0.2f;
+            }
+            else if (x >= speed_option3.x && x <= speed_option3.x + speed_option3.w &&
+                y >= speed_option3.y && y <= speed_option3.y + speed_option3.h) {
+                return 0.1f;
+            }
+        }
+    }
+
+    return 0.0f;
+}
