@@ -16,6 +16,7 @@ public:
 
     SDL_Texture* LoadImage(const std::string& file);
     bool ShowPlayButton();
+    float ShowSpeedOptions();
 private:
     SDL_Window* sdl_window;
     SDL_Renderer* sdl_renderer;
