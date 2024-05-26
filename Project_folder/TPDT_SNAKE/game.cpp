@@ -27,15 +27,15 @@ void game::Run(dieukhien const& controller, dohoa& renderer, std::size_t target_
         Update();
         if (!snake.alive) {
             SDL_Delay(300);
-            //renderer.GameOverScreen();
+            renderer.GameOverScreen();
             SDL_Delay(700);
             renderer.ClearScreen();
-            //running = renderer.ShowGameOverOptions();
-            /*if (running) {
+            running = renderer.ShowGameOverOptions();
+            if (running) {
                 snake = Snake(grid_width, grid_height, snake.speed);
                 score = 0;
                 PlaceFood();
-            }*/
+            }
         }
         else {
             renderer.Dohoa(snake, food);
@@ -53,8 +53,6 @@ void game::Run(dieukhien const& controller, dohoa& renderer, std::size_t target_
         }
     }
 }
-
-
 void game::PlaceFood() {
     int x, y;
     while (true) {
