@@ -2,7 +2,7 @@
 #include "dieukhien.h"
 #include "game.h"
 #include "dohoa.h"
-//#include "resource.h"
+#include "resource.h"
 
 int main() {
 	constexpr std::size_t kFramesPerSecond{ 60 };
