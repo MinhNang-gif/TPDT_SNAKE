@@ -41,9 +41,18 @@ void dohoa::ClearScreen() {
 
 void dohoa::Dohoa(Snake const snake, SDL_Point const& food) {
 
-    SDL_SetRenderDrawColor(sdl_renderer, 0, 0, 0, 0xFF);
+    SDL_Rect background_rect;
+    background_rect.x = 0;
+    background_rect.y = 0;
+    background_rect.w = screen_width;
+    background_rect.h = screen_height;
 
-    SDL_RenderClear(sdl_renderer);
+    SDL_Texture* background_image = LoadImage("sanchoi5.png");
+
+    if (background_image) {
+        SDL_RenderCopy(sdl_renderer, background_image, NULL, &background_rect);
+        SDL_DestroyTexture(background_image);
+    }
 
     SDL_Rect block;
     block.w = screen_width / grid_width;
